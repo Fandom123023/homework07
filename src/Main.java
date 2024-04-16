@@ -29,16 +29,15 @@ public class Main {
         }
         System.out.println();
 
-        System.out.println("test3");
         System.out.println("Задача 3");
         int people = 12_000_000;
         int birthrate = 17;
         int mortality = 8;
         for (int year = 1; year <= 10; year++) {
             people += people * (birthrate - mortality) / 1000;
-            System.out.println("Год " + year + ": численность населения состовляет " + people + " человек");
+            System.out.println("Год " + year + ": численность населения составляет " + people + " человек");
         }
-        System.out.println("test4");
+        System.out.println("задача 4");
         double deposit = 15_000;
         double totalAmount = 12_000_000;
         double percent = 0.07;
@@ -48,9 +47,9 @@ public class Main {
             System.out.printf("месяц %d: сумма накопления ровна %.2f рублей\n", moon, deposit);
             moon++;
         }
-        System.out.println("цель достигрнута. вам потребовалось " + (moon - 1) + " месяцев, чтобы накопить 12 000 000 рублей");
+        System.out.println("цель достигнута. вам потребовалось " + (moon - 1) + " месяцев, чтобы накопить 12 000 000 рублей");
 
-        System.out.println("test5");
+        System.out.println("задача 5");
         double depositTwo = 15_000;
         double monthlyInterestRate = 7.0 / 100;
         int totalMoons = 9 * 12;
@@ -59,7 +58,7 @@ public class Main {
             if (moons % 6 == 0) {
                 System.out.printf("%d месяц: %.2f рублей\n", moons, depositTwo);
 
-                System.out.println("test6");
+                System.out.println("задача 6");
                 int pledgeMoon = 15000;
                 double percentageMonth = 0.07;
                 int monthPurpose = 9 * 12;
